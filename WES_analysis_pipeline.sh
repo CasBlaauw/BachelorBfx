@@ -25,8 +25,8 @@ RGPU=slide_barcode
 # Call variants
 java -jar $GATK \
 -T HaplotypeCaller \
--R Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta  \
--I RG_dedupped_na12878_wes.sorted.bam \
+-R ../Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta  \
+-I BachelorBfx/RG_dedupped_na12878_wes.sorted.bam \
 -o RG_dedupped_na12878_wes.sorted.vcf
 
 # --------------------------------
